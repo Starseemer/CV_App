@@ -1,0 +1,27 @@
+.vertical-timeline-element-content {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    visibility: hidden;
+}
+
+.vertical-timeline-element-content-arrow {
+    border-right: 20px solid rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.vertical-timeline-element-content {
+    background-color: #373535;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.vertical-timeline-element-date {
+    color: #4059bf;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}

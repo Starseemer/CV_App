@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0;
+    color: white;
+    background-color: rgb(48, 46, 46);
+    justify-content: center;
+  }
+
+  .circle {
+    background: #4059bf;
+    border: 1px solid #99999900;
+    border-radius: 50%;
+    height: 30rem;
+    margin-right: -100px;
+    padding: 0;
+    text-align: center;
+    width: 30rem;
+    z-index: -10;
+    position: absolute;
+    top: 25%;
+    left: -15rem;
+  }
+
+  .wrapper {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100rem;
+    width: 100rem;
+    z-index: -5;
+    top: 0;
+    backdrop-filter: blur(100px);
+  }
+
+  .greet {
+    margin: 2rem;
+    width: 100rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .auto-height {
+    height: auto;
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform .6s ease-out;
+    will-change: opacity, visibility;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  
+
+  @keyframes wipe-enter {
+    0% {
+      transform: scale(0, .025);
+    }
+    50% {
+      transform: scale(1, .025);
+    }
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 60px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 50px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-inline-start: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  a, a:visited, a:hover, a:active{
+    /* color: #4059bf; */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card {
+    background-color: #373535;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #ffffff00;
+    border-radius: 25px;
+    
+  }
