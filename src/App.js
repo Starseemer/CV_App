@@ -7,8 +7,12 @@ import React from "react";
 import CvTimelineView from "./components/CVTimeline/cv_timeline";
 import ContactView from "./components/Contact/contact_view";
 import ProjectsView from "./components/Projects/projects_view";
+import { useEffect } from "react"
 
 export default function App() {
+	useEffect(() => {
+		document.title = "Berk Yildizgörer";
+	  }, [])
 	return (
 		<div>
 			<div class="circle"></div>
