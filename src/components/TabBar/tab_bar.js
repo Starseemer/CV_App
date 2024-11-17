@@ -29,7 +29,7 @@ export default function TabBar() {
 			</div>
 			<div id="trailing">
 				<div id="tab"> <a href="#about">About</a></div>
-				<div id="tab">Projects</div>
+				<div id="tab"><a href="#projects">Projects</a> </div>
 				<div id="tab"><a href="#contact">Contact</a></div>
 			</div>
 		</div>

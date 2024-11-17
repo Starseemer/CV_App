@@ -33,10 +33,17 @@ export default function App() {
 			<div class="greet auto-height">
 				<CvTimelineView />
 			</div>
+			<a name="projects"></a>
 			<div class="greet">
-				
 					<ProjectsView
 						projects={[
+							{
+								title: "EmoSync",
+								description:
+									"As part of my Master Project, I designed and developed a mobile application and backend system that uses LSTM and Q-learning to predict user emotions from health data. This project involved extensive research on emotion detection and machine learning, as well as the development of a user-friendly mobile application. EmoSync aims to provide users with insights into their emotional well-being, helping them to better understand and manage their mental health.",
+								imageUrl:
+									"https://raw.githubusercontent.com/Starseemer/CV_App/refs/heads/main/public/EmoSync.svg",
+							},
 							{
 								title: "GitHub Archive",
 								description:
@@ -45,15 +52,14 @@ export default function App() {
 									"https://media.licdn.com/dms/image/v2/D4E2DAQEqQA5go7oSuA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719359430079?e=1732460400&v=beta&t=Jlcqy_xKjhv5zGIiqwbKSUhRhXLtsVb6bRCXbk7sSwk",
 							},
 							{
-								title: "GitHub Archive",
+								title: "Smart Spectacles Eating Detection",
 								description:
-									"This project aims to create a verifiable archive of GithHub repositories on decentralized storage. The reasons why this is important is that GithHub is a centralized service that can at anytime decide not to offer their services anymore or easily censor repositories. Having a decentralized archive of the repository states would be beneficial for this purpose. \n\nHackFS 2024 Hackathon | Winner of Lit Protocol - Participation Prize",
+									"As part of my Master Seminar, I developed a headwear device designed to track eating behaviors using advanced sensor technology. I implemented three different machine learning models—SVM, LGTM, and Histogram-based Gradient Boosting (HistGB)—to detect eating patterns with high accuracy. This project involved extensive literature review and exploration of innovative sensor applications to monitor and analyze eating habits. The device aims to provide valuable insights into dietary behavior, contributing to research in health, nutrition, and wellness. This project reflects my commitment to leveraging technology for improved health outcomes.",
 								imageUrl:
 									"https://raw.githubusercontent.com/Starseemer/CV_App/refs/heads/main/public/EatingDetection.svg",
 							},
 						]}
 					/>
-				
 			</div>
 			<a name="contact"></a>
 			<div class="greet">
