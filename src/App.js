@@ -34,7 +34,7 @@ export default function App() {
 				<CvTimelineView />
 			</div>
 			<a name="projects"></a>
-			<div class="greet">
+			<div class="greet auto-height">
 					<ProjectsView
 						projects={[
 							{
