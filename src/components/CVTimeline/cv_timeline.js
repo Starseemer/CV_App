@@ -146,15 +146,7 @@ export default function CvTimelineView() {
 				</h4>
 				<p>SEO, Marketing, Market Analysis</p>
 			</VerticalTimelineElement>
-			<VerticalTimelineElement
-				iconStyle={{
-					background: "rgb(16, 204, 82)",
-					color: "#fff",
-					width: "10px",
-					height: "10px",
-				}}
-				icon={<Dot />}
-			/>
+			
 		</VerticalTimeline>
 	);
 }

@@ -9,6 +9,8 @@
     color: white;
     background-color: rgb(48, 46, 46);
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .circle {
@@ -30,16 +32,15 @@
     position: absolute;
     justify-content: center;
     align-items: center;
-    height: 100rem;
-    width: 100rem;
+    height: 100dvh;
+    width: 100dvw;
     z-index: -5;
     top: 0;
     backdrop-filter: blur(100px);
   }
 
   .greet {
-    margin: 2rem;
-    width: 100rem;
+    width: 100vw;
     height: 60rem;
     display: flex;
     flex-direction: column;
@@ -61,7 +62,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: start;
-    width: 100%;
+    width: 100vw;
   }
   .fade-in-section.is-visible {
     opacity: 1;
@@ -128,6 +129,7 @@
   }
   
   .card {
+    display: flex;
     background-color: #373535;
     border-radius: 25px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -141,7 +143,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: start;
-    width: 100%;
+    width: 100vw;
     padding-right: 10px;
     padding-left: 10px;
     background-color: #ffffff00;

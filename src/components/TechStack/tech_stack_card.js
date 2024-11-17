@@ -4,7 +4,7 @@ import TechStackItem from "./TechStackItem/tech_stack_item";
 
 export default function TechStackCard() {
 	return (
-		<div class="card" style={{ width: 60 + "%", marginTop: 2 + 'rem'}}>
+		<div class="card tech-stack-card">
 			<div id="title"><h3>My Tech Stack</h3></div>
 			<div id="content">
 				<TechStackItem iconName="python" name="Python" />

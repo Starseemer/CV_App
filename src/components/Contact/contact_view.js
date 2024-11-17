@@ -8,7 +8,7 @@ const ContactView = () => {
             <div id="title-center">
             <h3>Get In Touch</h3>
             </div>
-        <div className="card" style={{ width: 40 + "rem", marginTop: 2 + "rem", marginLeft: 0 }}>
+        <div className="card contact-card" >
             
             <div id="content-center">
             <p>Email: berkyldzgorer@gmail.com</p>

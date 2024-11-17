@@ -9,8 +9,7 @@ export default function AboutMeCard() {
 			</div>
 		
 		<div
-			class="card"
-			style={{ width: 40 + "rem", marginTop: 1 + "rem", marginLeft: 0 }}
+			class="card about-me-card"
 		>
 			<div id="content">
 				<p>
