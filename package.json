@@ -1,4 +1,5 @@
 {
+  "homepage": "https://starseemer.github.io/CV_App",
   "name": "cv-app",
   "version": "0.0.0",
   "main": "/src/index.js",
