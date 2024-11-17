@@ -49,7 +49,7 @@ export default function App() {
 								description:
 									"This project aims to create a verifiable archive of GithHub repositories on decentralized storage. The reasons why this is important is that GithHub is a centralized service that can at anytime decide not to offer their services anymore or easily censor repositories. Having a decentralized archive of the repository states would be beneficial for this purpose. \n\nHackFS 2024 Hackathon | Winner of Lit Protocol - Participation Prize",
 								imageUrl:
-									"https://github.com/Starseemer/CV_App/blob/main/public/EatingDetection.svg",
+									"https://raw.githubusercontent.com/Starseemer/CV_App/refs/heads/main/public/EatingDetection.svg",
 							},
 						]}
 					/>

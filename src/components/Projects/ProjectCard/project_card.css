@@ -32,7 +32,7 @@
     position: relative;
     z-index: 1;
     padding: 20px;
-    background: rgba(60, 59, 59, 0.722);
+    background: rgba(60, 59, 59, 0.475);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     width: 50rem;
