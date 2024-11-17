@@ -5,7 +5,7 @@ import "./greeting_view.css";
 export default function GreetinView() {
 	return (
 		<div class="greet">
-			<h1>Hi There! <span>I'm Berk Yildizgörer</span></h1>
+			<h1 id="hi">Hi There! <span>I'm Berk Yildizgörer</span></h1>
             <div class="greet-text">
             
             <TypeAnimation
@@ -22,7 +22,7 @@ export default function GreetinView() {
 					wrapper="span"
 					cursor={true}
 					repeat={Infinity}
-					style={{ fontSize: "2em", display: "inline-block" }}
+					style={{ fontSize: "2em", display: "inline-block", margin: "0 auto" }}
 				/>
             </div>
 		</div>

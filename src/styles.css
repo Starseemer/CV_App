@@ -32,7 +32,7 @@
     position: absolute;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 110dvh;
     width: 100dvw;
     z-index: -5;
     top: 0;
@@ -41,7 +41,7 @@
 
   .greet {
     width: 100vw;
-    height: 60rem;
+    height: 120dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;

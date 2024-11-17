@@ -10,6 +10,52 @@ import Dot from "../Dot/dot";
 
 export default function CvTimelineView() {
 	return (
+		<div>
+		<VerticalTimeline>
+		<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				date="Oct 2022 - Present"
+				iconStyle={{
+					background: "rgb(33, 150, 243)",
+					color: "#fff",
+					width: "10px",
+					height: "10px",
+				}}
+				icon={<Dot />}
+			>
+				<h3 className="vertical-timeline-element-title">
+					University of Freiburg
+				</h3>
+				<h4 className="vertical-timeline-element-subtitle">
+					Computer Science M.Sc. - Freiburg, Germany
+				</h4>
+				<p>AI Specialization</p>
+			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				date="Sept 2015 - Jun 2020"
+				iconStyle={{
+					background: "rgb(33, 150, 243)",
+					color: "#ffff",
+					width: "10px",
+					height: "10px",
+					border: "0px solid #fff",
+				}}
+				icon={<Dot />}
+			>
+				<h3 className="vertical-timeline-element-title">
+					Kadir Has University
+				</h3>
+				<h4 className="vertical-timeline-element-subtitle">
+					Computer Engineering B.Sc. - Istanbul, Turkey
+				</h4>
+				<p>
+					GPA: 3.01/4.00, Honours Degree
+				</p>
+			</VerticalTimelineElement>
+			
+		</VerticalTimeline>
+		<div style={{height: "8dvh"}}> </div>
 		<VerticalTimeline>
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
@@ -148,5 +194,6 @@ export default function CvTimelineView() {
 			</VerticalTimelineElement>
 			
 		</VerticalTimeline>
+		</div>
 	);
 }

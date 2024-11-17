@@ -25,6 +25,25 @@
         height: 25rem;
         white-space: pre-wrap;
     }
+
+    .project-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .project-card-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .project-card:hover .project-card-bg {
+        transform: scale(1.1);
+    }
     
 }
 
@@ -45,32 +64,39 @@
         z-index: 1;
         padding: 20px;
         background: rgba(60, 59, 59, 0.475);
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(1px);
         border-radius: 10px;
         width: 50rem;
         height: 25rem;
         white-space: pre-wrap;
     }
+
+    .project-card-content:hover {
+        backdrop-filter: blur(10px);
+        background: rgba(42, 41, 41, 0.475);
+    }
+
+    .project-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .project-card-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .project-card:hover .project-card-bg {
+        transform: scale(1.1);
+    }
     
 }
 
 
-.project-card:hover {
-    transform: scale(1.05);
-}
 
-.project-card-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.3s ease;
-}
-
-.project-card:hover .project-card-bg {
-    transform: scale(1.1);
-}
 

@@ -4,6 +4,7 @@ import "./tab_bar.css";
 
 export default function TabBar() {
 	return (
+		<div id="tabbar-container">
 		<div id="tabbar">
 			<div id="leading">Berk Yildizgörer</div>
 			<div id="center">
@@ -32,6 +33,7 @@ export default function TabBar() {
 				<div id="tab"><a href="#projects">Projects</a> </div>
 				<div id="tab"><a href="#contact">Contact</a></div>
 			</div>
+		</div>
 		</div>
 	);
 }
