@@ -50,6 +50,7 @@
 
   .auto-height {
     height: auto;
+    min-height: 100vh;
   }
 
   .fade-in-section {

@@ -44,7 +44,7 @@ export default function App() {
 							{
 								title: "EmoSync",
 								description:
-									"As part of my Master Project, I designed and developed a mobile application and backend system that uses LSTM and Q-learning to predict user emotions from health data. This project involved extensive research on emotion detection and machine learning, as well as the development of a user-friendly mobile application. EmoSync aims to provide users with insights into their emotional well-being, helping them to better understand and manage their mental health. \nIn the study that I have conducted with limited participants and short duration of 1.5 week, the model achieved an accuracy of 77% in average in predicting the user's emotion. Which is a signinifacnt improvement over the baseline model with accuracy of 72%.",
+									"As part of my Master Project, I designed and developed a mobile application and backend system that uses LSTM and Q-learning to predict user emotions from health data. This project involved extensive research on emotion detection and machine learning, as well as the development of a user-friendly mobile application. EmoSync aims to provide users with insights into their emotional well-being, helping them to better understand and manage their mental health. \n\nIn the study that I have conducted with limited participants and short duration of 1.5 week, the model achieved an accuracy of 77% in average in predicting the user's emotion. Which is a signinifacnt improvement over the baseline model with accuracy of 72%.",
 								imageUrl:
 									"https://raw.githubusercontent.com/Starseemer/CV_App/refs/heads/main/public/EmoSync.svg",
 							},
